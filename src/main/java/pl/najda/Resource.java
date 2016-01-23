@@ -26,7 +26,7 @@ public class Resource {
     @GET
     public void poll(@Suspended final AsyncResponse asyncResponse) {
 
-        asyncResponse.setTimeout(30, TimeUnit.SECONDS);
+        //asyncResponse.setTimeout(30, TimeUnit.SECONDS);
         this.asyncResponse = asyncResponse;
     }
 
